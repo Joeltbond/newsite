@@ -8,4 +8,4 @@ storiesOf('Grid', module)
   .add('callapse on mobile', grid(true));
 
 storiesOf('Typography', module)
-  .add('defaul', typography);
+  .add('default', typography);
