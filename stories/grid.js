@@ -1,6 +1,8 @@
 import React from 'react';
 import { injectGlobal } from 'styled-components';
 
+import { fonts } from '../style-utils/constants';
+
 import Main from '../components/Main';
 import Row from '../components/Row';
 import Column from '../components/Column';
@@ -12,7 +14,7 @@ export default collapse => () => {
   const contentStyle = {
     ...backgroundStyle,
     color: 'white',
-    fontFamily: 'Futura',
+    fontFamily: fonts.georgia,
     fontSize: 10,
     padding: 6,
     minHeight: 80,

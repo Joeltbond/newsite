@@ -10,3 +10,8 @@ export const breakpoint = 768;
 export const colors = {
   primaryText: '#333',
 };
+
+export const fonts = {
+  roboto: "'Roboto', sans-serif",
+  georgia: 'Georgia, serif',
+};
